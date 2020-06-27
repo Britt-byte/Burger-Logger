@@ -1,0 +1,49 @@
+
+.label {
+    font-weight: bold;
+}
+
+.create-update-form {
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.main-container {
+    text-align: center;
+    padding: 17px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container {
+    background-color: white;
+    margin-top: 10px;
+    padding: 30px;
+    align-content: center;
+}
+
+@media only screen and (max-width: 740px) {
+    li {
+        margin-right: 50px;
+        margin-left: 50px;
+        display: inline-block;
+    }
+    .main-container {
+        padding: 17px;
+    }
+}
